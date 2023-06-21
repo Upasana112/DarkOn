@@ -1,0 +1,21 @@
+{
+    "name": "DarkOn",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Hello there , if your eyes are strained due to constantly looking at screen .Then use this extension to invert theme , to get some relief . ",
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "DarkOn",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
